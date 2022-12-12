@@ -18,7 +18,7 @@ import time
 import math
 
 try:
-    def calc(x):
+    def calculate(x):
         return str(math.log(abs(12*math.sin(x))))
 
     link = 'http://suninjuly.github.io/explicit_wait2.html'
@@ -30,7 +30,7 @@ try:
 
     x_element = browser.find_element(By.ID,'input_value')
     x = int(x_element.text)
-    y = calc(x)
+    y = calculate(x)
 
     input1 = browser.find_element(By.ID, 'answer')
     input1.send_keys(y)
