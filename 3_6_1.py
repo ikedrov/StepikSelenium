@@ -13,9 +13,9 @@ try:
     enter = browser.find_element(By.ID, 'ember33').click()
 
     input1 = browser.find_element(By.ID, 'id_login_email')
-    input1.send_keys('ivkedrov@gmail.com')
+    input1.send_keys('***')
     input2 = browser.find_element(By.ID, 'id_login_password')
-    input2.send_keys('carry212')
+    input2.send_keys('***')
 
     browser.find_element(By.CSS_SELECTOR, 'button.sign-form__btn').click()
 
